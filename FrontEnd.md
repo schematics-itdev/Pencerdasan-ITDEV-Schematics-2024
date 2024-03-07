@@ -42,7 +42,7 @@ Ada beberapa library yang digunakan di development frontend Schematics 2024, dia
 
 ### React-Query
 
-React-Query adalah library yang memudahkan kita dalam proses fetching, create, update, dan juga delete dalam penggunaan API. React-Query memiliki beberapa hooks yang membuat handling error, dan beberapa state lainnya menjadi lebih simple, mencegah manual refetching, declarative dan lebih efisien. Contoh dari hook tersebut adalah useQuery dan useMutation. Pada useQuery, kita dapat mengambil data, dan juga error langsung dari hook tersebut sehingga meminimalisir penggunakan usestate pada aplikasi kita. Pada useMutation, kita bisa mengetahui apakah mutation kita sedang loading, tanpa harus menggunakan state tambahan, dan dapat mengetahui status dari mutation kita seperti success, error, dan lain-lain.
+<a href='https://tanstack.com/query/v3/'>React-Query</a> adalah library yang memudahkan kita dalam proses fetching, create, update, dan juga delete dalam penggunaan API. React-Query memiliki beberapa hooks yang membuat handling error, dan beberapa state lainnya menjadi lebih simple, mencegah manual refetching, declarative dan lebih efisien. Contoh dari hook tersebut adalah useQuery dan useMutation. Pada useQuery, kita dapat mengambil data, dan juga error langsung dari hook tersebut sehingga meminimalisir penggunakan usestate pada aplikasi kita. Pada useMutation, kita bisa mengetahui apakah mutation kita sedang loading, tanpa harus menggunakan state tambahan, dan dapat mengetahui status dari mutation kita seperti success, error, dan lain-lain.
 
 ### Tailwind CSS
 
@@ -61,3 +61,5 @@ Perbedaan dari kedua router ini cukup signifikan, dan perbedaan terbesarnya ada 
 ### Optimizing Server and Client Component
 
 Cara kita mengoptimasi aplikasi kita adalah dengan menggunakan client component seperlunya. Ada beberapa contoh penggunaan client component dan server component yang baik sehingga kita meminimalisir penggunaan cient component yang redundant dan terlalu besar.
+
+example: <a href='https://x.com/asidorenko_/status/1752650462556287301?s=46'>Better practice for client partent</a>
