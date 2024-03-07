@@ -29,6 +29,7 @@ Jika kita sudah selesai mengerjakan task kita, kita perlu melakukan beberapa com
 3. `git fetch origin`
 4. `git pull --rebase origin main`
 5. `git push -u origin ${nama_branch}`
+6. Lalu setelah berhasil dipush ke github, kita bisa membuka respositorynya dan membuat pull request baru.
 
 Ada hal yang perlu diperhatikan ketika ingin melakukan commit, yaitu penamaan commit yang kita lakukan. Di IT Dev Schematics 2024, kita menggunakan <a href='https://www.conventionalcommits.org/en/v1.0.0/'>conventional commit message</a> untuk melakukan penamaan pada commit kita. Hal ini digunakan untuk membuat penamaan commit kita lebih terstandarisasi, dan juga deskriptif.
 
@@ -63,3 +64,26 @@ Perbedaan dari kedua router ini cukup signifikan, dan perbedaan terbesarnya ada 
 Cara kita mengoptimasi aplikasi kita adalah dengan menggunakan client component seperlunya. Ada beberapa contoh penggunaan client component dan server component yang baik sehingga kita meminimalisir penggunaan cient component yang redundant dan terlalu besar.
 
 example: <a href='https://x.com/asidorenko_/status/1752650462556287301?s=46'>Better practice for client partent</a>
+
+## Design System
+
+Di workspace frontend, sudah disediakan beberapa komponen yang membuat pengerjaan kita menjadi lebih cepat dan konsisten. Salah satu dari komponen tersebut adalah komponen Typography. Pada komponen Typography, kita bisa memilih variant, font, dan weight yang akan digunakan.
+
+Design system ini bertujuan untuk membuat hasil yang lebih konsisten, karena memiliki dasar komponen yang sama.
+
+## Clean Code
+
+Clean code adalah salah satu aspek penting dalam pengembangan sebuah software/web. Untuk mendapatkan hasil yang maksimal, dan mempermudah orang lain membaca hasil coding kita, sebaiknya clean code ini diterapkan.
+
+Aturan umum clean code yaitu:
+
+1.  Mengikuti standart umum bahasa pemograman
+2.  KISS (Keep It Simple Stupid), diusahakan untuk selalu meminimal mungkin dalam mengimplementasikan kode.
+3.  Cari akar permasalahan, jangan hanya bagian-bagian sekitar yang terkena dampak kode tersebut.
+
+Tips for writing cleaner code:
+
+1.  Effectiveness, Efficiency and Simplicity
+2.  Format and Syntax: Indentation and spacing, Consistent syntax
+3.  Reusability
+4.  Only Expose and Consume Data You Need
